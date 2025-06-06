@@ -2,6 +2,32 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     font-family: Roboto;
+    object-fit: contain;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.Header-One{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Header-Link{
+    margin: 12px;
+}
+.Header-Logo{
+    margin: 12px;
+}
+.Container#one{
+    background-color: #1F2937;
+}
+a{
+   font-size: 18px;
+   color: #e5e7eb; 
+}
+button{
+    background-color: #3882F6;
+    border: none;
 }
