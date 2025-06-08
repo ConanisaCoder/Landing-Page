@@ -4,15 +4,32 @@ body{
     justify-content: center;
     font-family: Roboto;
     object-fit: contain;
+    align-items: stretch;
 }
-img{
-    height: 100px;
-    width: 100px;
+.Container#one{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;  
+}
+.Container#two{
+    display: flex;
+    flex-direction: column;
+    gap: 100px; 
+}
+#Header-Two-P{
+    font-size: 36px;
+    justify-self: center;
+    font-weight: 900;
+    color: #1F2937;
 }
 .Header-One{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.Header-Logo{
+    color: #e5e7eb;
 }
 .Header-Link{
     margin: 12px;
@@ -20,14 +37,46 @@ img{
 .Header-Logo{
     margin: 12px;
 }
-.Container#one{
-    background-color: #1F2937;
-}
 a{
    font-size: 18px;
    color: #e5e7eb; 
 }
-button{
+.Sign-Up-Info#Div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 450px;
+}
+.Header-Two{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 100px;
+}
+.Sign-Up-Info.Placeholder{
+    display: flex;
+}
+#Sign-Up-Info-Header{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0px;
+}
+#img-header-two{
+    width: 450px;
+}
+.Sign-Up-Info.Paragraph{
+ font-size: 18px;
+ color: #F9FAF8;
+ flex-wrap: wrap;
+}
+.Button.Sign-Up-Info{
     background-color: #3882F6;
     border: none;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-weight: 1000;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
