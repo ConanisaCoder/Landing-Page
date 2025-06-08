@@ -6,6 +6,15 @@ body{
     object-fit: contain;
     align-items: stretch;
 }
+.img-header-two{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 5px;
+    align-self: center;
+}
 .Container#one{
     background-color: #1F2937;
     display: flex;
@@ -34,8 +43,28 @@ body{
 .Header-Link{
     margin: 12px;
 }
+.Image-Text-Cotainer-Four{
+    display: flex;
+    align-items: center;
+    margin-left: 100px ;
+    justify-content: space-evenly;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.Image-Subtext-Container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 125px;
+}
 .Header-Logo{
     margin: 12px;
+}
+p{
+    text-align: center;
 }
 a{
    font-size: 18px;
