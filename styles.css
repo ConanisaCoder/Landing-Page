@@ -49,7 +49,7 @@ body{
     margin-left: 100px ;
     justify-content: space-evenly;
     margin-right: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-top: 50px;
 }
 .Image-Subtext-Container{
@@ -73,6 +73,8 @@ a{
 .Sign-Up-Info#Div{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     align-items: flex-start;
     width: 450px;
 }
@@ -108,4 +110,59 @@ a{
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
+}
+.Container#three{
+    background-color: #e5e7eb;
+}
+.Container#three #Quote-Text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    display: inline;
+}
+.Container#three #Quoted{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    display: inline;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+.Quote-Container{
+    margin: 100px 100px;
+}
+.Container#four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Call-To-Action{
+    margin: 25px;
+    display: flex;
+    background-color: #3882F6;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#Call-To-Action-Paragraph{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0px
+}
+.Call-To-Action-p2,.Call-To-Action-p1{
+    margin: 0px;
+    color: white;
+}
+.Call-To-Action-p1{
+    font-size: 18px;
+    font-weight: bolder;
+}
+#Call-To-Action-Button{
+    color: white;
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 5px 25px;
 }
