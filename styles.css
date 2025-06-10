@@ -3,8 +3,19 @@ body{
     flex-direction: column;
     justify-content: center;
     font-family: Roboto;
-    object-fit: contain;
     align-items: stretch;
+    min-height: 100vh
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div{
+    flex-wrap: wrap;
+}
+.Container{
+    width: 100%;
 }
 .img-header-two{
     height: 100px;
@@ -35,6 +46,8 @@ body{
 .Header-One{
     display: flex;
     align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
     justify-content: space-between;
 }
 .Header-Logo{
@@ -70,22 +83,27 @@ a{
    font-size: 18px;
    color: #e5e7eb; 
 }
-.Sign-Up-Info#Div{
+.Sign-Up-Info-Div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-items: flex-start;
     width: 450px;
 }
+
 .Header-Two{
-    display: flex;
+    display: flex;;
     justify-content: center;
     align-self: center;
     margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 50px;
 }
 .Sign-Up-Info.Placeholder{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #Sign-Up-Info-Header{
     font-size: 48px;
