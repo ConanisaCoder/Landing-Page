@@ -82,6 +82,11 @@ p{
 a{
    font-size: 18px;
    color: #e5e7eb; 
+   text-decoration: none;
+   background-color: #3882F6;
+   border-radius: 10px;
+   padding: 5px;
+   text-align: center;
 }
 .Sign-Up-Info-Div{
     display: flex;
@@ -138,6 +143,11 @@ a{
     font-weight: lighter;
     display: inline;
 }
+#Quote-Text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .Container#three #Quoted{
     font-size: 24px;
     font-style: normal;
@@ -148,6 +158,9 @@ a{
 }
 .Quote-Container{
     margin: 100px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .Container#four{
     display: flex;
@@ -191,4 +204,12 @@ a{
     justify-content: center;
     color:white;
     padding: 25px 0px;
+}
+#Picture-Self{
+    object-fit: cover;
+    height: 120px;
+    width: 100px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #3882F6;
 }
