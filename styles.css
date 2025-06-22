@@ -53,6 +53,9 @@ div{
 .Header-Logo{
     color: #e5e7eb;
 }
+.Header-Links{
+    display: flex;
+}
 .Header-Link{
     margin: 12px;
 }
