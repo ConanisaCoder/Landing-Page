@@ -1,5 +1,10 @@
-# Landing Page
+# Landing Page Odin Project Homework
 
-## What is This?
+## A Simple responsive landing Page written in HTML and CSS
 
-This is a site for the Odin Project. In this project I used html and css to create a webpage similar to what the Odin Project site Prompted me to do. I would then I add some personal links, images and text to add my own styling and learn more about the capabilities of Css and html.
+This is a simple project written by me following a set of styling rules for the color and fonts that were used and a format for the full design I had to follow from the Odin-Project Foundations course.
+### Format for Full Desgin
+<img src="img/Image_One_Full_Design.png" alt="Image" title="Sample Tit" width="500">
+
+### Styling for Fonts and Colors
+<img src="img/Image_Two_Color_and_Fonts.png" alt="Image" title="Sample Tit" width="500">
